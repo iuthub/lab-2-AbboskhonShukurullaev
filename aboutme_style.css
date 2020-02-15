@@ -5,10 +5,21 @@ body {
     color: white;
 }
 
+h2:first-child:first-letter {
+    color: rgb(238, 17, 91);
+    font-family: Georgia;
+    font-size: 50px;
+    line-height: 30px;
+    padding-top: 1px;
+    padding-right: 8px;
+    padding-left: 1px;
+  }
+
 h2 {
-    color:rgb(78, 245, 195);
+    color:rgb(223, 145, 171);
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 20px
 }
 
 h3 {
@@ -24,8 +35,15 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
+a:link {
     color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color:yellowgreen;
 }
 
 table {
@@ -36,3 +54,14 @@ img {
     width: 350px;
     height: 350px;
 }
+
+h3:first-child:first-letter {
+    color: rgb(238, 17, 91);
+    font-family: Georgia;
+    font-size: 50px;
+    line-height: 30px;
+    padding-top: 1px;
+    padding-right: 8px;
+    padding-left: 1px;
+  }
+
